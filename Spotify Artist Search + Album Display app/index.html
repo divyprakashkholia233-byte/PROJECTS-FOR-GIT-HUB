@@ -1,16 +1,45 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title> Album Finder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spotify Album Finder</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Spotify Album Finder</h1>
-    <input type="text" id="artist" placeholder="Artist Name">
-    <button onclick="SearchArtist()">Search</button>
-    <div id="albums"></div>
-    <script scr="script.js"></script>
-</body>
 
+    <div class="container">
+
+        <header>
+            <h1>Spotify Album Finder</h1>
+            <p>Search for an artist and discover their albums.</p>
+        </header>
+
+        <section class="search-box">
+
+            <input
+                type="text"
+                id="artist"
+                placeholder="Enter artist name..."
+                autocomplete="off"
+            >
+
+            <button id="searchButton">
+                Search
+            </button>
+
+        </section>
+
+        <p id="status"></p>
+
+        <section id="albums" class="albums"></section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
 </html>
