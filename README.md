@@ -24,3 +24,18 @@ Spotify Artist Search + Album Display app/
 ├── index.html
 ├── style.css
 └── script.js
+```
+## How to Use
+
+1. Open the application in a web browser.
+2. Enter the name of an artist in the search box.
+3. Click the **Search** button.
+4. Browse the artist's albums displayed on the page.
+
+## Purpose
+
+This project was created to practice web development, JavaScript, API integration, and dynamic webpage content.
+
+## Author
+
+**Divyprakash Kholia**
